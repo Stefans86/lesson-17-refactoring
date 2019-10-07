@@ -27,11 +27,9 @@ public class TheChoiceIsYours {
 	}
 
 	String useTernaryOperator() {
-		String whichToGetWith;
-		if (blackSheep)
-			whichToGetWith = "this";
-		else
-			whichToGetWith = "that";
+
+		String whichToGetWith = blackSheep ? "this" : "that";
+
 		return whichToGetWith;
 	}
 
